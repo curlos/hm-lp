@@ -7,7 +7,8 @@
     "build": "next build && next export",
     "buildWithBundler": "setx ANALYZE=true && npm run build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "buildProduction": "npm run build && npm run start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
