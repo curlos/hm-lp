@@ -1,0 +1,178 @@
+.bannerContainer {
+    background-color: #0337A2;
+    font-family: Montserrat;
+}
+
+.bannerContainerLeft {
+    color: #FFFFFF;
+    padding-bottom: 200px;
+}
+
+.bannerContainerRight {
+    background-image: url('../../../public/assets/Hero-Banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex: 1;
+    padding-bottom: 155px;
+    margin-left: -270px;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 110px;
+}
+
+.subTitle {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 60%;
+    right: 0;
+    border-top: 3px solid;
+    border-color: inherit;
+    color: #0337A2;
+    
+
+    -webkit-transform:rotate(-16deg);
+    /* -moz-transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    transform:rotate(-10deg); */
+}
+
+.animatedIconsWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #EEF0F2;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: -100px;
+    margin-bottom: 60px;
+    box-shadow: 0px 15px 15px -15px rgb(107, 155, 252);    
+}
+
+.animatedIconsWrapper .iconWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato;
+    font-weight: bold;
+    color: #000000;
+}
+
+.animatedIconsWrapper .iconWrapper .iconDescription {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.plansTitle {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.plansContainer {
+    background-color: #0054FF;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    padding: 40px;
+    /* object-fit: cover;
+    background-image: url('../../../public/assets/Blue-SIM_Pattern.png'); */
+    background-image: url('../../../public/assets/SIM-Seamless-Pattern-Tile.webp');
+}
+
+.plansWrapper {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+.colWithImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+.imageWrapper img {
+    height: 100%;
+}
+
+.buyOrBringPhoneTitle {
+    color: #0337A2;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.savingsQuizLinkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDD700;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.takeQuizButton {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+@media (max-width: 768px) { 
+    .plansContainer {
+        padding: 20px;
+    }
+
+    .plansTitle {
+        text-align: center;
+    }
+
+    .plansWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .animatedIconsWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+ }
+
+ .lineOrPlanDesc {
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat;
+ }

@@ -1,0 +1,15 @@
+.footerContainer {
+    background-color: #0337A2;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerText {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.footerContainer a {
+    color: #FFFFFF;
+}
